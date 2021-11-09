@@ -1,0 +1,5 @@
+/usr/lib/python3/dist-packages/odoo -> está docker
+
+docker exec -it 2b21a6ce0b97 /bin/bash -> conectar docker odoo bash
+
+docker exec -u 0 -it 2b21a6ce0b97 /bin/bash -> ejecutar container como usuario root

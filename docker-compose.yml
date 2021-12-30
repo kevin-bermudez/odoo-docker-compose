@@ -6,6 +6,7 @@ services:
       - mydb
     ports:
       - "${ODOO_PORT}:8069"
+      - "${ODOO_PORT_SSL}:8069"
     environment:
       - HOST=mydb
       - USER=odoo
